@@ -48,25 +48,14 @@ source venv/bin/activate  # Mac
 3. Install dependencies:
 pip install -r requirements.txt
 
-
----
-
-### ✅ 6. **How to Run Tests**
-```markdown
-## Running Tests
-
+## Run Tests
 Run all scenarios:
 ```bash
 behave
 
-4. To run and generate an HTML report (if you install behave-html-formatter):
+To run and generate an HTML report (if you install behave-html-formatter):
 behave -f behave_html_formatter:HTMLFormatter -o reports/report.html
 
-
----
-
-### ✅ 7. **Screenshots and Logs**
-```markdown
 ## Screenshots & Logs
 
 - 📷 Screenshots for failed steps are saved in the `screenshots/` folder.
